@@ -17,6 +17,7 @@ public class ControllerClass {
     @PostMapping("/test")
     public void test(@RequestBody RequestClass requestClass){
 
+        System.out.println("coming in here bro");
         Map<String, List<Student>> studentMap = new HashMap<>();
 
         for (int i =0; i< requestClass.getStudents().size(); i++){
