@@ -33,7 +33,7 @@ public class ControllerClass {
         for (Map.Entry<String, List<Student>> entry : studentMap.entrySet()) {
             String key = entry.getKey();
             List<Student> students = entry.getValue();
-            System.out.println("Key: " + key + ", Value: " + students);
+            System.out.println("Key: " + key + ", Value:  " + students);
         }
     }
 }
